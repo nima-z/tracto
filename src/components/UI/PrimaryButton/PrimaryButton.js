@@ -1,6 +1,6 @@
 import styled from "./PrimaryButton.module.css"
-export default function PrimaryButton({children}){
-    return <button className={styled.button}>
+export default function PrimaryButton({children, onClick}){
+    return <button className={styled.button} onClick={onClick}>
         {children}
     </button>
 }   
