@@ -19,7 +19,7 @@ code {
 
 button {
   cursor: pointer;
-  border: none
+  border: none;
 }
 
 a { 
@@ -30,7 +30,7 @@ input {
   border: none;
 }
 
-input:focus-visible{
+input:focus-visible {
   outline: none;
 }
 
