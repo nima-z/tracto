@@ -1,0 +1,11 @@
+.h4 {
+    font-weight: 500;
+    font-size: 12px;
+    background: -webkit-linear-gradient(92.21deg, #2F4FFF 0.53%, #0085FF 99.3%);
+    line-height: 16.7px;
+    letter-spacing: 0.175em;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    /* font-family: Visuelt Pro */
+}
