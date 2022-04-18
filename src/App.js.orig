@@ -2,12 +2,16 @@
 import "./App.css";
 import Subscription from "./components/UI/Subscription/Subscription";
 function App() {
+<<<<<<< HEAD
+  return <h1>hello</h1>;
+=======
   return (
     <div className="App">
       <h1>Hello</h1>
-      <Subscription />
+      <Subscription/>
     </div>
   );
+>>>>>>> refs/remotes/origin/master
 }
 
 export default App;

@@ -1,0 +1,20 @@
+.container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 472px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 7px 8px 8px 28px;
+
+}
+
+.container > input {
+    flex-grow: 1;
+    font-size: 13px;
+    line-height: 15.51px;
+    color: #6F6F6F;
+    line-height: 16px;
+}
