@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.3rem;
+}
+
+.logo {
+  width: 97px;
+  height: 30px;
+  background-color: red;
+}
