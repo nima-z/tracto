@@ -4,6 +4,11 @@
   justify-content: space-between;
 }
 
-/* .container a {
-  margin-right: 3.7rem;
-} */
+.container a {
+ color: #040403;
+ font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+}
