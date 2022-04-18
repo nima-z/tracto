@@ -1,9 +1,9 @@
 import styles from "./Footer.module.css";
-import Logo from "../../UI/icons/Logo";
+import Logo from "../../ui/icons/Logo";
 import { Link } from "react-router-dom";
-import Facebook from "../../UI/icons/Facebook";
-import Instagram from "../../UI/icons/Instagram";
-import Twitter from "../../UI/icons/Twitter";
+import Facebook from "../../ui/icons/Facebook";
+import Instagram from "../../ui/icons/Instagram";
+import Twitter from "../../ui/icons/Twitter";
 
 export default function Footer() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../../UI/icons/Logo";
-import Spacer from "../../UI/Spacer";
+import Logo from "../../ui/icons/Logo";
+import Spacer from "../../ui/spacer/Spacer";
 import Navigation from "../navigation/Navigation";
 
 import styles from "./Header.module.css";
