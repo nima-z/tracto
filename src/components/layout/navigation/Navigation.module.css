@@ -1,0 +1,9 @@
+.container {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .container a {
+  margin-right: 3.7rem;
+} */

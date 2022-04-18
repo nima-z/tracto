@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../UI/Logo";
+import Logo from "../../UI/icons/Logo";
 import Spacer from "../../UI/Spacer";
 import Navigation from "../navigation/Navigation";
 
@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <Navigation />
       <Spacer />
-      <div>button</div>
+      <div className={styles.action}>button</div>
     </div>
   );
 }
