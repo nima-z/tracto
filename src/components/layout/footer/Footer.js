@@ -10,8 +10,8 @@ export default function Footer() {
     <footer className={styles.container}>
       <div className={styles.info}>
         <Logo />
-        <p>2020</p>
-        <p>all rights</p>
+        <p>@2021 Tracto Inc.</p>
+        <p>All Rights Reserved</p>
         <div className={styles.icons}>
           <Facebook />
           <Instagram />
@@ -35,7 +35,7 @@ export default function Footer() {
           <Link to="/er">Product Manager</Link>
         </div>
         <div className={styles.link}>
-          <h3>People</h3>
+          <h3>Company</h3>
           <Link to="/er">Terms of Services</Link>
           <Link to="/er">Privacy Policy</Link>
         </div>

@@ -33,3 +33,18 @@ input {
 input:focus-visible{
   outline: none;
 }
+
+@font-face {
+  font-family: 'VisueltPro';
+  src: local('VisueltPro'), url('./fonts/VisueltPro-Medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'SF-Pro-M';
+  src: local('SF-Pro-M'), url('./fonts/Sofia\ Pro\ Medium\ Az.otf') format('truetype')
+}
+
+@font-face {
+  font-family: 'SF-Pro-L';
+  src: local('SF-Pro-L'), url('./fonts/Sofia\ Pro\ Light\ Az.otf') format('truetype')
+}
