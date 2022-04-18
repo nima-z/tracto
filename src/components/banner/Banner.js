@@ -6,7 +6,7 @@ import styles from "./Banner.module.css";
 export default function Banner({ header, text, children }) {
   return (
     <div className={styles.container}>
-      <img src="/images/circles.png" />
+      <img src="/images/circles.png" alt='circles'/>
       <div className="center">
         <H4>{header}</H4>
         <H1>{children}</H1>
