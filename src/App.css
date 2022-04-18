@@ -1,12 +1,3 @@
 .App {
   text-align: center;
 }
-
-.banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 90vh;
-  gap: 44px;
-  margin-top: 80px;
-}
