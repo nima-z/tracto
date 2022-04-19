@@ -30,6 +30,7 @@
 
 .icons {
     display: flex;
+    justify-content: space-around;
 }
 
 .item {
