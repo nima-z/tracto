@@ -26,12 +26,15 @@
     font-size: 24px;
     line-height: 34px;
     text-align: center;
+    margin-bottom: 4.8rem;
 }
 
-.icons {
-    display: flex;
+.action {
+    margin: 5.9rem 0  4.3rem;
 }
 
-.item {
-    color: white;
-}
+
+
+
+
+
