@@ -1,0 +1,31 @@
+.container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.headline {
+    margin-bottom: 97px;
+}
+.headline > * {
+    text-align: left;
+}
+
+.headline > div {
+    display: flex;
+    gap: 97px;
+
+}
+.headline > div > h2 {
+    width: 321px;
+}
+.headline > div > p {
+    width: 582px;
+}
+
+.features {
+    display: flex;
+    gap: 77px;
+}
