@@ -1,0 +1,35 @@
+.container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding: 200px;
+}
+
+.title {
+  margin-bottom: 97px;
+  text-align: left;
+}
+
+.title h4 {
+  margin-bottom: 0.8rem;
+}
+
+.title > div {
+  display: flex;
+  gap: 97px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  width: 50%;
+  text-align: left;
+  padding-top: 1.9rem;
+}
+
+.features {
+  display: flex;
+  gap: 77px;
+}
