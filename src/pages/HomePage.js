@@ -3,6 +3,7 @@ import Section2 from "../components/sections/section-2/Section2";
 import Banner from "../components/banner/Banner";
 import Subscription from "../components/ui/Subscription/Subscription";
 import styles from "./Homepage.module.css";
+import Section3 from "../components/sections/section-3/Section3";
 export default function HomePage() {
   return (
     <Fragment>
@@ -17,6 +18,7 @@ export default function HomePage() {
       </section>
 
       <Section2 />
+      <Section3 />
     </Fragment>
   );
 }

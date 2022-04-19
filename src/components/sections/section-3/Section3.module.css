@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .headline {
@@ -11,6 +12,7 @@
 .headline > * {
     text-align: left;
 }
+
 .headline > div {
     display: flex;
     gap: 97px;
@@ -24,5 +26,6 @@
 }
 
 .features {
-
+    display: flex;
+    gap: 77px;
 }
