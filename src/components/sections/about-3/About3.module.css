@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 119px;
+  margin-bottom: 9.6rem;
+}
+
+.content {
+  width: 30%;
+  text-align: left;
+  margin-top: 100px;
+  padding: 1rem;
+}
+
+.content h2 {
+  margin: 0.8rem 0 1.6rem 0;
+}
+
+.content h4 {
+  font-family: "VisueltPro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 139.2%;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  background: linear-gradient(92.21deg, #2f4fff 0.53%, #0085ff 99.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.content button {
+  margin-top: 2rem;
+}
+
+.upperImage {
+  position: relative;
+  bottom: 21rem;
+  left: 15rem;
+  z-index: -1;
+}
