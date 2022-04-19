@@ -1,8 +1,7 @@
 .h2 {
-    /* font-family: 'Visuelt Pro'; */
+    font-family: 'VisueltPro';
     font-weight: 700;
     font-size: 34px;
     line-height: 44px;
     color: #000000;
-    font-style: bold;
 }

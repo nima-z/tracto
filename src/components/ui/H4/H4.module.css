@@ -7,5 +7,6 @@
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-    /* font-family: Visuelt Pro */
+    font-family: "VisueltPro";
+    text-transform: uppercase;
 }
