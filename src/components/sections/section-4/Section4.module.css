@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  background-color: #f4faff;
+  padding: 7.6rem 0 2rem 0;
+}
+
+.title {
+  margin-bottom: 5.6rem;
+}
+
+.title p {
+  font-family: "SF-Pro-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.63);
+  margin-top: 1.2rem;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 86px;
+  margin-bottom: 9.6rem;
+}
+
+.content {
+  width: 20%;
+  text-align: left;
+}
+
+.content h2 {
+  margin: 0.8rem 0 1.6rem 0;
+}
+
+.content h4 {
+  font-family: "VisueltPro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 139.2%;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  background: linear-gradient(92.21deg, #2f4fff 0.53%, #0085ff 99.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.content button {
+  margin-top: 1.3rem;
+}
