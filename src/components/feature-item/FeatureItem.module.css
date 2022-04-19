@@ -1,0 +1,9 @@
+.container {
+    width: 196px;
+    text-align: left;
+}
+
+.container > div {
+    margin-bottom: 27px;
+}
+
