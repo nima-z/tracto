@@ -2,98 +2,53 @@
   position: relative;
 }
 
-@keyframes tonext {
-    75% {
-        left: 0;
-    }
-    95% {
-        left: 40%;
-    }
-    98% {
-        left: 40%;
-    }
-    99% {
-        left: 0;
-    }
-}
-@keyframes tostart {
-    75% {
-    left: 0;
-    }
-    95% {
-    left: -300%;
-    }
-    98% {
-    left: -300%;
-    }
-    99% {
-    left: 0;
-}
-}
-  
-@keyframes snap {
-    96% {
-        scroll-snap-align: center;
-    }
-    97% {
-        scroll-snap-align: none;
-    }
-    99% {
-        scroll-snap-align: none;
-    }
-    100% {
-        scroll-snap-align: center;
-    }
-}
-
-  
 .slides {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    display: flex;
-    /* justify-content: space-between; */
-    
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
-
 
 .slides::-webkit-scrollbar {
-    width: 10px;
-    height: 20px;
-
-}
-
-.slides::-webkit-scrollbar-thumb {
-background: black;
-}
-.slides::-webkit-scrollbar-track {
-    background: #eee;
-    width: 20px;
-    height: 20px;
+  display: none;
 }
 
 .slide {
-    position: relative;
-    scroll-snap-align: start;
-    flex-shrink: 0;
-    transform-origin: center center;
-    position: relative;
-    flex: 0 0 50%;
-    display: flex;
+  flex-shrink: 0;
+  transform-origin: center center;
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  scroll-snap-align: center;
+}
 
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    scroll-snap-align: center;
-
-    animation-name: tonext, snap;
-    animation-timing-function: ease;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
+.slide:first-child {
+  margin-left: 25vw;
 }
 
 .slide:last-child {
-    animation-name: tostart, snap;
+  margin-right: 25vw;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 35%;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 33%;
+  height: 5px;
+  background: #040403;
+  cursor: pointer;
 }

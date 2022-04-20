@@ -18,17 +18,6 @@ const testimonials = [
     author: "Julie - Product Designer",
     text: "A bit like building a house, from floor plans to final coat of paint. Our process is very flexible",
   },
-  {
-    id: 4,
-    author: "Julie - Product Designer",
-    text: "A bit like building a house, from floor plans to final coat of paint. Our process is very flexible",
-  },
-
-  {
-    id: 5,
-    author: "Julie - Product Designer",
-    text: "A bit like building a house, from floor plans to final coat of paint. Our process is very flexible",
-  },
 ];
 export default function TestimonialManager() {
   const [primary, setPrimary] = useState(Math.floor(testimonials.length / 2));
@@ -47,6 +36,7 @@ export default function TestimonialManager() {
           </div>
         ))}
       </div>
+      <input type="range" min="0" max="2" className={styles.range} />
     </div>
   );
 }

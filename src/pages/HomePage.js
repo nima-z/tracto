@@ -10,9 +10,9 @@ import TestimonialManager from "../components/testimonial/testimonial-manager";
 export default function HomePage() {
   return (
     <Fragment>
-      <Section1 />
+      {/* <Section1 />
       <Section2 />
-      <Section3 />
+      <Section3 /> */}
       <TestimonialManager />
     </Fragment>
   );
