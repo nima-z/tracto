@@ -52,3 +52,13 @@
   background: #040403;
   cursor: pointer;
 }
+
+.left {
+  transform: translateX(0);
+}
+.center {
+  transform: translateX(-50%);
+}
+.right {
+  transform: translateX(-100%);
+}

@@ -20,11 +20,25 @@ const testimonials = [
   },
 ];
 export default function TestimonialManager() {
-  const [primary, setPrimary] = useState(Math.floor(testimonials.length / 2));
+  // const [primary, setPrimary] = useState(Math.floor(testimonials.length / 2));
+  const [primary, setPrimary] = useState(1);
+
+  function changeRange(e) {
+    setPrimary(e.target.value);
+  }
+
+  let classStyles;
+  if (primary === 0) {
+    classStyles = "left";
+  } else if (primary === 1) {
+    classStyles = "center";
+  } else if (primary === 2) {
+    classStyles = "right";
+  }
 
   return (
     <div className={styles.container}>
-      <div className={styles.slides}>
+      <div className={`${styles.slides} ${styles[classStyles]}`}>
         {testimonials.map((t, index) => (
           <div className={styles.slide} key={t.id}>
             <TestimonialItem
@@ -36,7 +50,14 @@ export default function TestimonialManager() {
           </div>
         ))}
       </div>
-      <input type="range" min="0" max="2" className={styles.range} />
+      <input
+        type="range"
+        min="0"
+        max="2"
+        className={styles.range}
+        value={primary}
+        onChange={changeRange}
+      />
     </div>
   );
 }
