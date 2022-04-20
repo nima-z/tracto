@@ -1,0 +1,99 @@
+.container {
+  position: relative;
+}
+
+@keyframes tonext {
+    75% {
+        left: 0;
+    }
+    95% {
+        left: 40%;
+    }
+    98% {
+        left: 40%;
+    }
+    99% {
+        left: 0;
+    }
+}
+@keyframes tostart {
+    75% {
+    left: 0;
+    }
+    95% {
+    left: -300%;
+    }
+    98% {
+    left: -300%;
+    }
+    99% {
+    left: 0;
+}
+}
+  
+@keyframes snap {
+    96% {
+        scroll-snap-align: center;
+    }
+    97% {
+        scroll-snap-align: none;
+    }
+    99% {
+        scroll-snap-align: none;
+    }
+    100% {
+        scroll-snap-align: center;
+    }
+}
+
+  
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+
+}
+
+.slides::-webkit-scrollbar-thumb {
+background: black;
+}
+.slides::-webkit-scrollbar-track {
+    background: #eee;
+    width: 20px;
+    height: 20px;
+}
+
+.slide {
+    position: relative;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    transform-origin: center center;
+    position: relative;
+    flex: 0 0 50%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    scroll-snap-align: center;
+
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.slide:last-child {
+    animation-name: tostart, snap;
+}
