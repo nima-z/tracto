@@ -1,5 +1,4 @@
 import H2 from "../../ui/H2/H2";
-import H4 from "../../ui/H4/H4";
 import BodyReg from "../../ui/body-reg/BodyReg";
 import PrimaryButton from "../../ui/primary-button/PrimaryButton";
 

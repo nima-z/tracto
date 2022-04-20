@@ -3,6 +3,7 @@
   justify-content: center;
   gap: 119px;
   margin-bottom: 9.6rem;
+  text-align: center;
 }
 
 .content {
@@ -38,6 +39,6 @@
 .upperImage {
   position: relative;
   bottom: 21rem;
-  left: 15rem;
+  left: 43rem;
   z-index: -1;
 }
