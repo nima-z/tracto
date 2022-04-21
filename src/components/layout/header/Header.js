@@ -1,6 +1,4 @@
-import React from "react";
 import Logo from "../../ui/icons/Logo";
-import Spacer from "../../ui/spacer/Spacer";
 import Navigation from "../navigation/Navigation";
 import PrimaryButton from "../../ui/primary-button/PrimaryButton";
 

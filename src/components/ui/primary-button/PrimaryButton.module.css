@@ -1,12 +1,18 @@
-
 .button {
-    width: 148px;
-    height: 50px;
-    border-radius: 7px;
-    background: linear-gradient(92.21deg, #2F4FFF 0.53%, #0085FF 99.3%);;
-    line-height: 14px;
-    font-size: 14px;
-    color: #FBFBFF;
-    font-family: "SF-Pro-M";
-    border: none
+  width: 148px;
+  height: 50px;
+  border-radius: 7px;
+  background: linear-gradient(92.21deg, #2f4fff 0.53%, #0085ff 99.3%);
+  line-height: 14px;
+  font-size: 14px;
+  color: #fbfbff;
+  font-family: "SF-Pro-M";
+  border: none;
+  font-weight: 400;
+}
+
+.button:hover {
+  width: 152px;
+  height: 54px;
+  font-weight: 500;
 }
