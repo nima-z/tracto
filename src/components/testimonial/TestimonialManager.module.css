@@ -1,5 +1,9 @@
 .container {
   position: relative;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px */
 }
 
 .slides {
@@ -8,6 +12,7 @@
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  margin-bottom: 55px;
 
 }
 
@@ -36,6 +41,8 @@
 }
 
 .range {
+  display: block;
+  margin: 0 auto;
   -webkit-appearance: none;
   width: 35%;
   height: 5px;
