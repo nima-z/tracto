@@ -1,6 +1,6 @@
 import styles from "./TestimonialManager.module.css";
 import TestimonialItem from "./item/item";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const testimonials = [
   {
@@ -32,6 +32,7 @@ export default function TestimonialManager() {
     else if (e.deltaY > 0)
       setPrimary((p) => (p === testimonials.length - 1 ? (p = 0) : p + 1));
   }
+
   let classStyles;
   if (primary === 0) {
     classStyles = styles.left;
@@ -40,6 +41,13 @@ export default function TestimonialManager() {
   } else if (primary === 2) {
     classStyles = styles.right;
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPrimary((p) => (p === testimonials.length - 1 ? (p = 0) : p + 1));
+    }, 8000);
+    return () => clearInterval(interval);
+  }, [primary]);
 
   return (
     <div className={styles.container}>
