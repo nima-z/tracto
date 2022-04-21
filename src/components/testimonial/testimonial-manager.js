@@ -1,6 +1,7 @@
 import styles from "./TestimonialManager.module.css";
 import TestimonialItem from "./item/item";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 const testimonials = [
   {
@@ -21,6 +22,7 @@ const testimonials = [
 ];
 export default function TestimonialManager() {
   const [primary, setPrimary] = useState(0);
+  const ref = useRef();
 
   function changeRange(e) {
     setPrimary(+e.target.value);
@@ -33,13 +35,12 @@ export default function TestimonialManager() {
       setPrimary((p) => (p === testimonials.length - 1 ? (p = 0) : p + 1));
   }
 
-  let classStyles;
-  if (primary === 0) {
-    classStyles = styles.left;
-  } else if (primary === 1) {
-    classStyles = styles.center;
-  } else if (primary === 2) {
-    classStyles = styles.right;
+  function mouseEnterHandler() {
+    disableBodyScroll(ref);
+  }
+
+  function mouseLeaveHandler(e) {
+    enableBodyScroll(ref);
   }
 
   useEffect(() => {
@@ -49,9 +50,24 @@ export default function TestimonialManager() {
     return () => clearInterval(interval);
   }, [primary]);
 
+  let classStyles;
+  if (primary === 0) {
+    classStyles = styles.left;
+  } else if (primary === 1) {
+    classStyles = styles.center;
+  } else if (primary === 2) {
+    classStyles = styles.right;
+  }
+
   return (
     <div className={styles.container}>
-      <div className={`${styles.slides}`} onWheel={handleScroll}>
+      <div
+        className={`${styles.slides}`}
+        onWheel={handleScroll}
+        ref={ref}
+        onMouseEnter={mouseEnterHandler}
+        onMouseLeave={mouseLeaveHandler}
+      >
         {testimonials.map((t, index) => {
           return (
             <div className={`${styles.slide} ${classStyles}`} key={t.id}>

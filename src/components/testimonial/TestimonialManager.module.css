@@ -8,6 +8,7 @@
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  margin-bottom: 55px;
 
 }
 
@@ -36,9 +37,11 @@
 }
 
 .range {
+  display: block;
+  margin: 0 auto;
   -webkit-appearance: none;
   width: 35%;
-  height: 5px;
+  height: 2px;
   border-radius: 5px;
   background: #d3d3d3;
   outline: none;
@@ -51,7 +54,7 @@
   -webkit-appearance: none;
   appearance: none;
   width: 33%;
-  height: 5px;
+  height: 2px;
   background: #040403;
   cursor: pointer;
 }
