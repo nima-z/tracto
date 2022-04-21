@@ -1,0 +1,19 @@
+.container {
+    position: fixed;
+    z-index: 10;
+    background: rgba(255,255,255,0.05);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.progressBar {
+    background: blue;
+    background: linear-gradient(to left, #2F4FFF, #0085FF);
+    transform-origin: top left;
+    transform: scale(0,0);
+}
+
+.container,  .container > div {
+    height: 2px;
+}
