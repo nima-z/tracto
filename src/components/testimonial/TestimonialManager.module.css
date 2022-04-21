@@ -22,6 +22,7 @@
   align-items: center;
   font-size: 100px;
   scroll-snap-align: center;
+  transition: all 0.2s;
 }
 
 .slide:first-child {
@@ -54,11 +55,11 @@
 }
 
 .left {
-  transform: translateX(0);
+  transform: translateX(0%);
 }
 .center {
-  transform: translateX(-50%);
+  transform: translateX(-100%);
 }
 .right {
-  transform: translateX(-100%);
+  transform: translateX(-200%);
 }
