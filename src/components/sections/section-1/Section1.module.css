@@ -14,6 +14,7 @@
 
 .floatImage img {
   width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 1700px) {
