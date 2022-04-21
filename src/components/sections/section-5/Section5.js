@@ -1,6 +1,6 @@
 import H2 from "../../ui/H2/H2";
 import H4 from "../../ui/H4/H4";
-import styles from "./Section4.module.css";
+import styles from "./Section5.module.css";
 import TestimonialManager from "../../testimonial/testimonial-manager";
 export default function Section4() {
   return (
