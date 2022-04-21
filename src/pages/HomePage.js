@@ -5,6 +5,7 @@ import Section2 from "../components/sections/section-2/Section2";
 import Section3 from "../components/sections/section-3/Section3";
 import Section5 from "../components/sections/section-5/Section5";
 import Section4 from "../components/sections/section-4/Section4";
+import Promotion from "../components/promotion/Promotion";
 
 export default function HomePage() {
   const location = useLocation();
@@ -16,11 +17,12 @@ export default function HomePage() {
   }, [location]);
   return (
     <Fragment>
-      <Section1 />
+      {/* <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
-      <Section5 />
+      <Section5 /> */}
+      <Promotion />
     </Fragment>
   );
 }
