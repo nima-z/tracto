@@ -39,6 +39,28 @@
 .upperImage {
   position: relative;
   bottom: 21rem;
-  left: 43rem;
+  left: 0;
   z-index: -1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  padding-right: 17rem;
+}
+
+@media (max-width: 1700px) {
+  .upperImage {
+    padding-right: 12rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .upperImage {
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 1300px) {
+  .upperImage {
+    padding-right: 0;
+  }
 }
