@@ -4,7 +4,6 @@ import AboutUs from "./pages/AboutUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 import "./App.css";
-import TestimonialItem from "./components/testimonial/item/item";
 
 function App() {
   return (
