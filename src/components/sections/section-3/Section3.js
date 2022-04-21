@@ -7,7 +7,7 @@ import Indicator from "../../ui/icons/Indicator";
 
 export default function Section3() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="features">
       <div>
         <div className={styles.headline}>
           <H4>Helping Digital</H4>

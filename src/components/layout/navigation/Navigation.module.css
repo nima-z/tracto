@@ -1,14 +1,14 @@
 .container {
-  flex: 2;
   display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 
 .container a {
- color: #040403;
- font-family: 'SF-Pro-L';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 14px;
+  color: #040403;
+  font-family: "SF-Pro-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
 }

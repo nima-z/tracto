@@ -14,7 +14,14 @@
 .container > input {
     flex-grow: 1;
     font-size: 13px;
-    line-height: 15.51px;
-    color: #6F6F6F;
     line-height: 16px;
+    color: #040403;
+    font-family: "SF-Pro-M";
+    font-weight: 400;
+
+
+}
+
+.container > input::placeholder{
+    color: #6F6F6F;
 }

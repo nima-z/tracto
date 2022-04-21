@@ -21,23 +21,23 @@ export default function Footer() {
       <div className={styles.links}>
         <div className={styles.link}>
           <h3>Usecases</h3>
-          <Link to="/er">Contract Creation</Link>
-          <Link to="/er">Contract Negotiation</Link>
-          <Link to="/er">Escrow Wallet</Link>
-          <Link to="/er">Task Management</Link>
-          <Link to="/er">Service Integrations</Link>
+          <Link to="/">Contract Creation</Link>
+          <Link to="/">Contract Negotiation</Link>
+          <Link to="/">Escrow Wallet</Link>
+          <Link to="/">Task Management</Link>
+          <Link to="/">Service Integrations</Link>
         </div>
         <div className={styles.link}>
           <h3>People</h3>
-          <Link to="/er">Developers</Link>
-          <Link to="/er">Freelancers</Link>
-          <Link to="/er">Clients</Link>
-          <Link to="/er">Product Manager</Link>
+          <Link to="/">Developers</Link>
+          <Link to="/">Freelancers</Link>
+          <Link to="/">Clients</Link>
+          <Link to="/">Product Manager</Link>
         </div>
         <div className={styles.link}>
           <h3>Company</h3>
-          <Link to="/er">Terms of Services</Link>
-          <Link to="/er">Privacy Policy</Link>
+          <Link to="/">Terms of Services</Link>
+          <Link to="/privacy">Privacy Policy</Link>
         </div>
       </div>
     </footer>

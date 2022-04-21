@@ -2,27 +2,32 @@
   min-height: 90vh;
   display: flex;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  gap: 8rem;
+  padding: 200px;
   text-align: center;
 }
 
-.headline {
+.title {
   margin-bottom: 97px;
-}
-.headline > * {
   text-align: left;
 }
 
-.headline > div {
+.title h4 {
+  margin-bottom: 0.8rem;
+}
+
+.title > div {
   display: flex;
   gap: 97px;
 }
-.headline > div > h2 {
-  width: 321px;
-}
-.headline > div > p {
-  width: 582px;
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  width: 50%;
+  text-align: left;
+  padding-top: 1.9rem;
 }
 
 .features {

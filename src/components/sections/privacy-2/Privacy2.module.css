@@ -1,0 +1,29 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 3.5rem;
+}
+
+.item p {
+  padding-left: 2rem;
+  margin-top: 1.7rem;
+}
+
+.innerList {
+  list-style: none;
+  padding-left: 2rem;
+  margin-top: 2.8rem;
+}
+
+.innerList li {
+  margin-bottom: 2.8rem;
+}
