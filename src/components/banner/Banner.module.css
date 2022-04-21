@@ -5,9 +5,9 @@
 .container > img {
   position: absolute;
   top: -20%;
-  left: 32%;
-  bottom: 0;
+  left: 35%;
   transform: translateX(-50%);
+
   z-index: -1;
 }
 
@@ -23,4 +23,21 @@
 .container p {
   width: 502px;
   margin: 0 auto;
+}
+
+@media (max-width: 1700px) {
+  .container > img {
+    left: 35%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .container > img {
+    left: 45%;
+  }
+}
+@media (max-width: 1300px) {
+  .container > img {
+    left: 45%;
+  }
 }

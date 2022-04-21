@@ -37,7 +37,7 @@ export default function Footer() {
         <div className={styles.link}>
           <h3>Company</h3>
           <Link to="/">Terms of Services</Link>
-          <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/privacy#header">Privacy Policy</Link>
         </div>
       </div>
     </footer>
