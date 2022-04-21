@@ -10,7 +10,8 @@ export default function AboutUs() {
       <About1 />
       <About2 />
       <About3 />
-      <PromotionSection marginBottom={181} />
+      {/* FIXME: negative margin */}
+      <PromotionSection marginTop={-100} marginBottom={181} />
     </Fragment>
   );
 }
