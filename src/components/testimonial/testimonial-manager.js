@@ -26,6 +26,12 @@ export default function TestimonialManager() {
     setPrimary(+e.target.value);
   }
 
+  function handleScroll(e) {
+    if (e.deltaY < 0)
+      setPrimary((p) => (p === 0 ? (p = testimonials.length - 1) : p - 1));
+    else if (e.deltaY > 0)
+      setPrimary((p) => (p === testimonials.length - 1 ? (p = 0) : p + 1));
+  }
   let classStyles;
   if (primary === 0) {
     classStyles = styles.left;
@@ -37,9 +43,8 @@ export default function TestimonialManager() {
 
   return (
     <div className={styles.container}>
-      <div className={`${styles.slides}`}>
+      <div className={`${styles.slides}`} onWheel={handleScroll}>
         {testimonials.map((t, index) => {
-          console.log({ index, primary });
           return (
             <div className={`${styles.slide} ${classStyles}`} key={t.id}>
               <TestimonialItem

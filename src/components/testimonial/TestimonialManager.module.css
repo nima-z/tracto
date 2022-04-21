@@ -4,9 +4,11 @@
 
 .slides {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+
 }
 
 .slides::-webkit-scrollbar {
