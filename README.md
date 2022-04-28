@@ -1,12 +1,4 @@
-# Getting Started with Create React App
+# Tracto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tracto is a remote contract facilitator that aims to secure, manage and ensure quality delivery for freelancers.
+The payment terms, timeline, contract goals, NDA’s, tasks, and everything needed to make sure the work is understood and done, is provided in this platform.
